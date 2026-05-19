@@ -1,14 +1,30 @@
 {
-  "hosting": {
-    "public": ".",
-    "ignore": [
-      "firebase.json",
-      ".firebaserc",
-      ".gitignore",
-      ".git/**",
-      ".claude/**",
-      "**/node_modules/**",
-      "server.js"
-    ]
-  }
+  "hosting": [
+    {
+      "site": "memo-app-42672",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        ".firebaserc",
+        ".gitignore",
+        ".git/**",
+        ".claude/**",
+        "**/node_modules/**",
+        "server.js"
+      ]
+    },
+    {
+      "site": "imunity-memo",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        ".firebaserc",
+        ".gitignore",
+        ".git/**",
+        ".claude/**",
+        "**/node_modules/**",
+        "server.js"
+      ]
+    }
+  ]
 }
